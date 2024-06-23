@@ -75,7 +75,8 @@ static const char* HELP_MSG =
 static const char* EXEC_HELP_MSG =
         "\t[Commands]\t\t\tCommand(s) to execute.\n"
         "\t\t\t\t\tCommands will be executed in the sequence that they're passed over.\n"
-        "\t\t\t\t\tCommands with arguments should be surrounded by Double Quotation Mark \".\n"
+        "\t\t\t\t\tCommands with arguments should be passed as one single argument.\n"
+        "\t\t\t\t\tThis depends on the environment, usually by e.g. surrounding with \".\n"
         "\t\t\t\t\tDouble Quotation Mark needed in commands may be substituted with \\\".\n";
 
 static const char* SEC_HELP_MSG =
