@@ -10,6 +10,7 @@
 #include <stdbool.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <sys/wait.h>
 #include <time.h>
 #include <getopt.h>
 #include <string.h>
